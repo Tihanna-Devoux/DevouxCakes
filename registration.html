@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="registrationstyle.css">
+
+    <title>Devoux Cakes</title>
+</head>
+<body>
+    <section>
+        <h1>Registration Form</h1>
+        <h3>Enter your data</h3>
+        <form>
+        <label for="fname">Enter your first name:</label> <br />
+        <input type="text" name="fname" id="fname" placeholder="Sam" autofocus required/><br />
+        
+        <label for="lname">Enter your last name: </label><br />
+        <input type="text" name="lname" id="lname" placeholder="Smith" required/><br />
+        
+        <label for="dob">Choose your date of birth: </label><br />
+        <input type="date" name="dob" id="dob" /><br />
+        
+        <label for="email1">Enter your email: </label><br />
+        <input type="email" name="email1" id="email1" placeholder="samsmith@gmail.com" required/><br />
+        
+        <label for="username">Enter your username: </label><br />
+        <input type="text" name="username" id="username" placeholder="sammys" required/><br />
+        
+        <label for="pass">Enter your password: </label><br />
+        <input type="password" name="pass" id="pass" required/><br />
+        
+        <div class="buttonL">
+           <button type="submit" onclick="myFunctionRContinue()">Continue</button>
+           <button type="button" onclick="myFunctionRBack()">Back</button> 
+        </div>
+        
+    </form>
+    </section>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

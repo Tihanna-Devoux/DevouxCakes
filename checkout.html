@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="checkoutstyle.css">
+
+    <title>Devoux Cakes</title>
+</head>
+<body>
+    <header>
+		<nav>
+			<ul id="navbarlinks" class= "font">
+			<li><a href="product.html">Products</a></li>
+			<li><a href="cart.html">Cart</a></li>
+			<li><a href="#checkoutpage">Check Out</a></li>
+			</ul>
+			<br><br>
+		</nav>
+	</header>
+	
+    <section id="checkoutpage">
+        <h1>Check Out Page</h1>
+        <h1>Items</h1>
+        <div class="checkoutList">
+        
+        </div>
+    </section>
+    
+    <section>
+        <div>
+            <h1>Add Shipping Details</h1>
+            <form>
+                <label for="name">Enter your name:</label><br />
+                <input type="text" name="name" id="name"/><br />
+                
+                <label for="address">Enter your address</label><br />
+                <input type="text" name="address" id="address"/><br />
+                
+                <label for="amount">Amount being paid</label><br />
+                <input type="number" name="amount" id="amount"/><br />
+            </form>
+            
+            <div class="buttonL">
+                <button type="button" onclick="ConfirmCheck()">Confirm</button>
+                <button type="button" onclick="CancelCheck()">Cancel</button>
+            </div>
+            
+        </div>
+    </section>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

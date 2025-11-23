@@ -1,0 +1,164 @@
+#img1, #img2, #img3, #img4, #img5, #img6{
+	width: 370px;
+	height: 300px;
+	margin-left: 13px;
+	margin-top: 10px;
+}
+
+.divimg1{
+    width: 400px;
+	height: 450px;
+	background-color: #D78289;
+	border: solid;
+	border-width: 5px;
+	border-color: #D78289;
+}
+
+p{
+    color: black;
+}
+
+#about a{
+    color: #FADAD9;
+}
+
+#about a:hover{
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+}
+#about p{
+    color: black;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+#cakes1{
+    margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	gap: 5%;
+}
+
+#cakes2{
+	display: flex;
+	justify-content: center;
+	gap: 5%;
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#icon{
+    color: black;
+    margin-right: 50px;
+    position: relative;
+}
+
+body{
+    background-color: #FADAD9;
+}
+
+button{
+    color: white;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #C65C69;
+    float: right;
+}
+
+
+button:hover{
+    background-color: #FADAD9;
+    color: #C65C69;
+}
+
+#navbarlinks{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #C65C69;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 200px;
+}
+
+#navbarlinks li{
+    float: left;
+}
+
+#navbarlinks li a{
+    display: block;
+    color: #FADAD9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbarlinks li a:hover{
+    background-color: #E0959C;
+    color: #C65C69;
+}
+
+#navbarlinks li a:active{
+    background-color: #C65C69;
+}
+
+section{
+    margin-top: 100px;
+}
+
+#productpage{
+    border-bottom-style: dotted;
+    border-color: #D78289;
+}
+
+#about{
+    background-color: #D78289;
+    padding: 10px;
+}
+
+h1, p{
+    font-family: "Times New Roman", sans-serif, serif;
+}
+
+@media (max-width: 600px){
+    #img1, #img2, #img3, #img4, #img5, #img6{
+	width: 170px;
+	height: 100px;
+        
+    }
+
+    .divimg1{
+    width: 200px;
+	height: 250px;
+    }
+    
+    #cakes1{
+    flex-wrap: wrap;
+    }
+
+    #cakes2{
+	flex-wrap: wrap;
+    }
+    
+    #navbarlinks{
+    width: 100%;
+    gap: 100px;
+    }
+}

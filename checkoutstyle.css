@@ -1,0 +1,98 @@
+body{
+    background-color: #FADAD9;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+button{
+    color: white;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #C65C69;
+}
+
+.buttonL{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button:hover{
+    background-color: #FADAD9;
+    color: #C65C69;
+}
+
+h1{
+    text-align: center;
+}
+
+h1, input{
+    font-family: "Times New Roman", sans-serif, serif;
+}
+
+input{
+    margin-bottom: 30px;
+    width: 80%;
+    padding: 12px;
+    border: solid;
+    border-width: 2px;
+    border-color: #C65C69;
+    border-radius: 7px;
+}
+
+.checkoutList{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#navbarlinks{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #C65C69;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 200px;
+}
+
+#navbarlinks li{
+    float: left;
+}
+
+#navbarlinks li a{
+    display: block;
+    color: #FADAD9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbarlinks li a:hover{
+    background-color: #E0959C;
+    color: #C65C69;
+}
+
+#navbarlinks li a:active{
+    background-color: #C65C69;
+}
+
+@media (max-width: 600px){
+    img{
+	width: 100px;
+	height: 100px;
+    }
+    
+    #navbarlinks{
+    width: 100%;
+    gap: 100px;
+    }
+}

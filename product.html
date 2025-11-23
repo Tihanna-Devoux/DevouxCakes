@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="productstyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Devoux Cakes</title>
+</head>
+<body>
+    
+    <header>
+		<nav>
+			<ul id="navbarlinks" class= "font">
+			<li><a href="#productpage">Products</a></li>
+			<li><a href="cart.html">Cart</a></li>
+			<li><a href="checkout.html">Check Out</a></li>
+			</ul>
+			<br><br>
+		</nav>
+	</header>
+    
+    <h1>Welcome to Devoux's Cakes</h1>
+    
+    <section id="productpage">
+        <div id="about">
+            <h1>About Us</h1>
+            <p>Name: Tihanna Devoux</p>
+            <p>Module Code: CIT2011 </p>
+            <p>Assignment Name: Individual Assignment #2</p>
+            <p>Day/Time of Class: Friday at 7pm to 9pm</p>
+            <p> Contact: <a href="mailto:2408220@gmail.com">Email</a></p>
+            <br />
+            <p>Mission Statement: Our mission is to make the world sweeter one cake at a time.</p>
+            <p>Vision Statement: To have a well establish business franchise all over the world.</p>
+        </div>
+    </section>
+    
+    
+    <section>
+        <div class= "top">
+            <h1>Products List</h1>
+            <button id="icon" onclick="tocart()"><i class="material-icons" style="font-size:30px">shopping_cart</i></button>
+        </div>
+    
+        <div class="productlist">
+            <div id="cakes1">
+                <div class="divimg1" data-id="1">
+                    <img src="sheetcake.jpeg" alt="sheet cake" id="img1"/>
+                    <div class="grid">
+                        <p>Sheet Cake</p>
+                        <p>Base Price: $10000</p>
+                    </div>
+                    
+                    <button type="button" onclick="myFunctionSheetCake()" class="classbutton">Add to chart</button>
+        
+                </div>
+                
+                <div class="divimg1" data-id="2">
+                    <img src="circlecake.JPG" alt="circle cake" id="img2"/>
+                    <div class="grid">
+                        <p>Circle Cake</p>
+                        <p>Base Price: $10000</p>
+                    </div>
+                    
+                    <button type="button" onclick="myFunctionCircleCake()" class="classbutton">Add to chart</button>
+                </div>
+                
+                <div class="divimg1" data-id="3">
+                    <img src="heartcake.JPG" alt="heart cake" id="img3"/>
+                    <div class="grid">
+                        <p>Heart Cake</p>
+                        <p>Base Price: $10000</p>
+                    </div>
+                    <button type="button" onclick="myFunctionHeartCake()" class="classbutton">Add to chart</button>
+                </div>
+            </div>
+            
+            <div id="cakes2">
+                <div class="divimg1" data-id="4">
+                    <img src="lettercake.JPG" alt="letter cake" id="img4"/>
+                    <div class="grid">
+                        <p>Letter Cake</p>
+                        <p>Base Price: $30000</p>
+                    </div>
+                    
+                    <button type="button" onclick="myFunctionLetterCake()" class="classbutton">Add to chart</button>
+                    
+                </div>
+                
+                <div class="divimg1" data-id="5">
+                    <img src="numbercake.JPG" alt="number cake" id="img5"/>
+                    <div class="grid">
+                        <p>Number Cake</p>
+                        <p>Base Price: $30000</p>
+                    </div>
+                    <button type="button" onclick="myFunctionNumberCake()" class="classbutton">Add to chart</button>
+                    
+                </div>
+                <div class="divimg1" data-id="6">
+                    <img src="charactercake.JPG" alt="character cake" id="img6"/>
+                    <div class="grid">
+                        <p>Character Cake</p>
+                        <p>Base Price: $40000</p>
+                    </div>
+                    <button type="button" onclick="myFunctionCharacterCake()" class="classbutton">Add to chart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

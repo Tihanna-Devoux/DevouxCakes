@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="cartstyle.css">
+
+    <title>Devoux Cakes</title>
+</head>
+<body>
+    
+    <header>
+		<nav>
+			<ul id="navbarlinks" class= "font">
+			<li><a href="product.html">Products</a></li>
+			<li><a href="#cartpage">Cart</a></li>
+			<li><a href="checkout.html">Check Out</a></li>
+			</ul>
+			<br><br>
+		</nav>
+	</header>
+	
+	<section id="cartpage">
+	    <div>
+            <h1>Shopping Cart</h1>
+        
+            <div class="cartList">
+        
+            </div>
+        </div>
+    
+        <div class="calculation">
+            <p>SubTotal: <span class="itemSubTotal">0</span></p>
+            <p>Discount: <span class="itemDiscount">0</span></p>
+            <p>Tax: <span class="itemTax">0</span></p>
+            <p>Total: <span class="itemTotal">0</span></p>
+        </div>
+    
+        <div class="buttonL">
+            <button type="button" onclick="backToproducts()">BACK</button>
+            <button type="button" onclick="checkout()">CHECK OUT</button>
+        </div>
+	</section>
+    
+    
+    <script src="script.js"></script>
+    <script>
+    </script>
+</body>
+</html>
